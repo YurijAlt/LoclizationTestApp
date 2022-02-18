@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = NSLocalizedString("text_exp", comment: "")
+        label.text = NSLocalizedString("textTest", tableName: "Local", bundle: .main, value: "*LANG*", comment: "")
     }
 }
 
